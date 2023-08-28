@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins:ital,wght@0,100;1,100&family=Roboto:wght@500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 25px ;
+    background: #000000;
+
+}
+
+.box{
+    width: 65px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0.6rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .4s ease;
+
+}
+
+.box:hover{
+    width: 200px;
+    background: #c32aa3;
+    border-radius: 35px;
+    color: #ffffff;
+    box-shadow: 0 0 50px #b315917c;
+    
+}
+
+.box:nth-child(2):hover{
+    background: #25d366;
+    box-shadow: 0 0 50px #25d3657e;
+}
+
+.box:nth-child(3):hover{
+    background: #1877f2;
+    box-shadow: 0 0 50px #1876f285;
+}
+ 
+.box:nth-child(4):hover{
+    background: #1da1f2;
+    box-shadow: 0 0 50px #1da0f280;
+}
+
+.nav p{
+    transform: translate(60px);
+ 
+}
+
+.box .icon{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 50%;
+    margin-right: 10px;
+    transform: all .4s ease;
+
+    
+}
+.instagram{
+    background-color: #c32aa3;
+
+}
+
+.whatsapp{
+    background-color: #25d366;
+}
+
+.facebook{
+    background-color: #1877f2;
+}
+
+.twitter{
+    background-color: #1da1f2;
+}
+.box:hover .icon{
+    background: #ffffff;
+    color: #3b3b3b;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.26);
+}
+
